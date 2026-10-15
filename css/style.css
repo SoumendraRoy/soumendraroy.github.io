@@ -2462,3 +2462,55 @@ button:focus-visible {
     }
 
 }
+
+/* News below the homepage buttons */
+
+.home-content .home-news {
+    width: 100%;
+    margin-top: 20px;
+    padding: 18px 22px;
+    background: var(--muted-blue);
+    border-left: 4px solid var(--blue);
+    border-radius: 4px;
+    text-align: left;
+}
+
+.home-content .home-news h2 {
+    margin: 0 0 6px;
+    color: var(--blue-dark);
+    font-family: var(--sans);
+    font-size: 0.8rem;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    line-height: 1.4;
+    text-transform: uppercase;
+}
+
+.home-content .home-news p {
+    margin: 0;
+    font-size: 0.95rem;
+    line-height: 1.5;
+}
+
+.home-content .home-news strong {
+    display: block;
+    margin-bottom: 6px;
+    color: var(--navy);
+    font-size: 1.1rem;
+}
+
+.home-content .home-news a {
+    color: var(--blue-dark);
+    text-decoration: underline;
+    text-underline-offset: 3px;
+}
+
+.home-content .home-news a:hover {
+    color: var(--navy);
+}
+
+@media (max-width: 700px) {
+    .home-content .home-news {
+        padding: 16px 18px;
+    }
+}
